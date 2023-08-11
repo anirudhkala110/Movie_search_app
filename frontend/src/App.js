@@ -49,9 +49,9 @@ function App() {
 
       <div className="w-100 main-wrapper bg-dark d-flex flex-column align-items-center min-vh-100">
         {typeof state.selected.Title != "undefined" ? <Detail selected={state.selected} close={close} /> : <header className='w-100 text-center text-light mt-5'>
-          <h2>Movie Search</h2>
+          <h2>Movie Information In Short</h2>
           <Search handleInput={handleInput} SearchResult={SearchResult} />
-          <div className="container">
+          <div className="container detailing rounded rounded-3" style={{background:"transparent",backdropFilter:"blur(10px)"}}>
             <div className="row">
               {
                 state.results.map((result, i) => (
