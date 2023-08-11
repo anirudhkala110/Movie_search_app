@@ -1,0 +1,28 @@
+Fields That can be Shown
+
+Actors:
+Awards:
+BoxOffice:
+Country:
+DVD:
+Director:
+Genre:
+Language:
+Metascore:
+Plot: (For Description)
+Production:
+Rated:
+Ratings:{
+    Source:
+    Value:
+}
+Released:
+Runtime:
+Title:
+Type:
+Website:
+Writer:
+Year:
+imdbRating:
+imdbID:
+imdbVotes:

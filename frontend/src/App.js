@@ -20,6 +20,7 @@ function App() {
   }
   const SearchResult = (event) => {
     if (event.key === "Enter") {
+      // axios.get(' http://www.omdbapi.com/?i=tt3896198&apikey=ca749ece')To search a single Movie
       axios.get(' http://www.omdbapi.com/?i=tt3896198&apikey=ca749ece' + "&s=" + state.search)
         .then(res => {
           console.log(res)

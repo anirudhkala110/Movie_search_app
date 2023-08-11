@@ -24,6 +24,7 @@ font-size: 40px;
   box-shadow: 0px 2px 12px white;
 }
 .result img{
+  width: 80%;
   height: 320px;
 }
 
@@ -45,4 +46,11 @@ font-size: 40px;
 }
 .image:hover{
   transform: scale(1.08);
+}
+.hrdsg{
+  background-image: -webkit-linear-gradient(right,rgba(43, 40, 40, 0),rgb(128, 13, 64),rgb(128,13,64),rgba(0, 0, 0, 0))
+}
+
+@media only screen and (max-width:){
+  
 }
